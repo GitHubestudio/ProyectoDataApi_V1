@@ -1,37 +1,49 @@
 Analítica de Datos: de la API al Almacenamiento y Procesamiento 📊
-Este proyecto personal demuestra un flujo de trabajo de datos de backend completo, desde la ingesta de datos hasta el almacenamiento y el análisis. La solución se construyó utilizando un stack de tecnologías de .NET para el desarrollo de la API.
+
+Este proyecto personal demuestra un flujo de trabajo de datos de backend completo,
+desde la ingesta de datos hasta el almacenamiento y el análisis. La solución se construyó
+utilizando un stack de tecnologías de .NET para el desarrollo de la API.
 
 Objetivos del Proyecto 🎯
 
-Dominar la creación de una API REST con ASP.NET Core y C# para la ingesta y el procesamiento de datos.
+● Dominar la creación de una API REST con ASP.NET Core y C# para la ingesta y el procesamiento de datos.
 
-Aprender a gestionar una base de datos SQL Server utilizando Entity Framework Core, evitando sentencias SQL manuales.
+● Aprender a gestionar una base de datos SQL Server utilizando Entity Framework Core, evitando sentencias SQL manuales.
 
-Realizar análisis de datos del lado del servidor usando LINQ para obtener métricas de negocio clave.
+● Realizar análisis de datos del lado del servidor usando LINQ para obtener métricas de negocio clave.
 
 Características Principales 🌟
-API de Carga de Datos: Un endpoint POST recibe datos de ventas en formato JSON, los deserializa y los almacena en la base de datos de manera eficiente.
 
-Análisis del Lado del Servidor: La API incluye varios endpoints GET avanzados para obtener métricas clave:
+● API de Carga de Datos:
+Un endpoint POST recibe datos de ventas en formato JSON,
+los deserializa y los almacena en la base de datos de manera eficiente.
 
-Total de Ventas 💰
+● Paginación Eficiente:
+El endpoint de datos de ventas implementa paginación (?pagina=1&tamanoDePagina=25)
+para manejar grandes volúmenes de datos de manera óptima.
 
-Ventas por Producto 📦
+● Análisis del Lado del Servidor:
+La API incluye varios endpoints GET avanzados para obtener métricas clave:
 
-Ingresos Totales 📈
+•Total de Ventas 💰
 
-Ingresos por Producto 💲
+• Ventas por Producto 📦
 
-Paginación Eficiente: El endpoint de datos de ventas implementa paginación (?pagina=1&tamanoDePagina=25) para manejar grandes volúmenes de datos de manera óptima.
+• Ingresos Totales 📈
+
+• Ingresos por Producto 💲
+
 
 Tecnologías Utilizadas 🛠️
-Backend: C#, ASP.NET Core, Entity Framework Core
 
-Base de Datos: SQL Server
+● Backend: C#, ASP.NET Core, Entity Framework Core
 
-Pruebas de API: Postman
+● Base de Datos: SQL Server
+
+● Pruebas de API: Postman
 
 Cómo Ejecutar el Proyecto ▶️
+
 Clona este repositorio.
 
 Abre el proyecto en Visual Studio.
