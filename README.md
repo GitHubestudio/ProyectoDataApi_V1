@@ -1,10 +1,10 @@
-Analítica de Datos: de la API al Almacenamiento y Procesamiento 📊
+# Analítica de Datos: de la API al Almacenamiento y Procesamiento 📊
 
 Este proyecto personal demuestra un flujo de trabajo de datos de backend completo,
 desde la ingesta de datos hasta el almacenamiento y el análisis. La solución se construyó
 utilizando un stack de tecnologías de .NET para el desarrollo de la API.
 
-Objetivos del Proyecto 🎯
+# Objetivos del Proyecto 🎯
 
 ● Dominar la creación de una API REST con ASP.NET Core y C# para la ingesta y el procesamiento de datos.
 
@@ -12,7 +12,7 @@ Objetivos del Proyecto 🎯
 
 ● Realizar análisis de datos del lado del servidor usando LINQ para obtener métricas de negocio clave.
 
-Características Principales 🌟
+# Características Principales 🌟
 
 ● API de Carga de Datos:
 Un endpoint POST recibe datos de ventas en formato JSON,
@@ -33,8 +33,7 @@ La API incluye varios endpoints GET avanzados para obtener métricas clave:
 
 • Ingresos por Producto 💲
 
-
-Tecnologías Utilizadas 🛠️
+# Tecnologías Utilizadas 🛠️
 
 ● Backend: C#, ASP.NET Core, Entity Framework Core
 
@@ -42,7 +41,7 @@ Tecnologías Utilizadas 🛠️
 
 ● Pruebas de API: Postman
 
-Cómo Ejecutar el Proyecto ▶️
+# Cómo Ejecutar el Proyecto ▶️
 
 Clona este repositorio.
 
