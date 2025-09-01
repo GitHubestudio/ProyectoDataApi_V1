@@ -1,0 +1,17 @@
+﻿# Carpetas de binarios y de salida
+[Bb]in/
+[Oo]bj/
+
+# Paquetes de NuGet
+.vs/
+.vspscc
+*.suo
+*.user
+*.pdb
+*.suo
+
+# Archivos de configuración y secretos
+appsettings.Development.json
+appsettings.Development.json.user
+appsettings.json.user
+launchSettings.json
